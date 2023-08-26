@@ -1,0 +1,4 @@
+String array[]={"p","r"};
+for(String arr : array){
+System.out.println(arr);
+}
