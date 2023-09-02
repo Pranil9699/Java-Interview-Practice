@@ -1,0 +1,993 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\prani> dir
+
+
+    Directory: C:\Users\prani
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        16-06-2022  05:28 PM                --info
+d-----        16-06-2022  05:28 PM                -info
+d-----        01-03-2023  03:03 PM                .android
+d-----        03-12-2021  09:26 PM                .cache
+d-----        07-09-2022  12:45 AM                .codetogether
+d-----        20-05-2022  03:43 PM                .eclipse
+d-----        26-12-2022  10:20 AM                .idlerc
+d-----        10-05-2023  07:59 AM                .ipython
+d-----        19-11-2022  07:20 PM                .lemminx
+d-----        19-02-2023  07:13 PM                .m2
+d-----        02-09-2023  06:15 PM                .p2
+d-----        24-03-2023  12:53 PM                .sts4
+d-----        21-12-2022  02:42 PM                .VirtualBox
+d-----        01-09-2023  03:14 PM                .vscode
+d-----        21-12-2022  09:39 AM                .vscode-server
+d-----        28-05-2022  11:23 PM                .webclipse
+d-r---        02-12-2021  02:52 PM                3D Objects
+d-----        07-03-2022  09:23 AM                abc.txt
+d-r---        13-12-2022  07:36 PM                Contacts
+d-----        31-08-2023  07:58 PM                Core_Java
+d-----        19-02-2023  07:25 PM                demo
+d-----        11-02-2023  05:58 PM                Desktop
+d-----        29-06-2022  04:50 PM                desktop-tutorial
+d-----        18-06-2023  06:53 AM                Documents
+d-r---        02-09-2023  12:27 PM                Downloads
+d-----        01-10-2022  02:02 PM                eclipse
+d-----        19-08-2023  07:44 PM                eclipse-workspace
+d-----        29-06-2023  09:25 AM                eclipse-workspace-servlets
+d-r---        13-12-2022  07:36 PM                Favorites
+d-----        02-09-2023  06:22 PM                git
+d-----        04-07-2023  12:02 PM                IdeaProjects
+d-----        20-09-2022  07:29 PM                Java
+d-r---        13-12-2022  07:36 PM                Links
+d-r---        13-12-2022  07:36 PM                Music
+d-----        01-09-2023  03:23 PM                node_modules
+dar--l        02-09-2023  08:16 AM                OneDrive
+d-----        07-10-2022  04:43 PM                Pictures
+d-----        25-03-2023  01:42 PM                Postman
+d-r---        13-12-2022  07:36 PM                Saved Games
+d-r---        13-12-2022  07:36 PM                Searches
+d-----        24-07-2022  09:00 PM                Tracing
+d-r---        19-05-2023  08:35 PM                Videos
+d-----        21-12-2022  02:38 PM                VirtualBox VMs
+-a----        18-06-2023  07:07 AM            175 .angular-config.json
+-a----        07-09-2022  12:04 AM           7212 .bash_history
+-a----        28-05-2022  09:08 AM            106 .ctsystem
+-a----        06-09-2022  10:44 PM             53 .git-for-windows-updater
+-a----        01-09-2022  10:31 PM            240 .gitconfig
+-a----        01-09-2022  10:42 PM             20 .lesshst
+-a----        13-04-2023  02:31 PM          18160 .pdfbox.cache
+-a----        18-05-2022  03:12 PM          12288 .Pranil.sh.swp
+-a----        10-06-2022  11:31 AM          14403 .viminfo
+-a----        16-06-2022  05:38 PM            127 A.java
+-a----        20-05-2022  03:31 PM            123 A.java.bak
+-a----        10-03-2023  12:56 PM           4912 add_delete.html
+-a----        19-03-2023  10:35 AM           1823 alert.html
+-a----        15-03-2023  11:35 AM           1672 AllColorCode.html
+-a----        03-05-2023  08:08 AM           4425 Assignment1.pdf
+-a----        13-04-2023  03:51 PM           6613 Assignment2.pdf
+-a----        13-04-2023  03:50 PM           7176 Assignment4.pdf
+-a----        20-04-2023  11:09 PM        1103334 BCA245 – Web Technology Laboratory.pdf
+-a----        26-12-2022  10:46 AM           1699 binarytree2.c
+-a----        26-12-2022  10:46 AM          41937 binarytree2.exe
+-a----        08-03-2023  01:59 PM           2618 chatgpt3.html
+-a----        10-03-2023  12:16 AM           1384 copy.html
+-a----        01-12-2022  04:40 PM           2766 DBMYSQL.java
+-a----        19-03-2023  03:31 PM           3705 dynamic.html
+-a----        19-02-2023  06:56 PM              0 echo
+-a----        14-05-2023  01:07 PM              0 errorlog.txt
+-a----        26-12-2022  10:27 AM             44 first.js
+-a----        19-02-2023  06:38 PM              8 first.py
+-a----        15-03-2023  11:52 AM           2147 header.html
+-a----        18-05-2022  05:45 PM             57 hello.txt
+-a----        02-09-2023  05:40 PM              0 openai.js
+-a----        01-09-2023  03:23 PM           4159 package-lock.json
+-a----        01-09-2023  03:23 PM             72 package.json
+-a----        08-03-2023  10:05 AM           3620 pagination.html
+-a----        08-03-2023  10:01 AM           4437 pagination2.html
+-a----        08-03-2023  10:07 AM           3440 pagination3.html
+-a----        05-04-2022  01:04 PM            170 Pranil_Exmple.html
+-a----        05-04-2022  03:21 PM           1031 Pranil_Exmple_1.html
+-a----        14-07-2022  06:10 PM             32 README.md
+-a----        04-12-2022  08:56 PM           2988 sample.html
+-a----        19-02-2023  07:06 PM             14 sample.py
+-a----        05-04-2022  02:37 PM            759 style.css
+-a----        20-05-2022  01:19 PM              0 Sum
+-a----        20-05-2022  01:26 PM            195 Sum.sh
+-a----        15-03-2023  11:22 AM           6704 third.html
+-a----        24-02-2022  12:21 PM            766 Untitled-1.html
+-a----        06-12-2021  06:17 PM            191 Untitled-1.txt
+-a----        06-09-2022  07:26 PM          17313 vscode-profile-2022-09-06-19-26-44.cpuprofile
+-a----        28-03-2022  10:45 AM            409 witch.c
+-a----        25-03-2023  05:44 PM           2243 wrap.html
+
+
+PS C:\Users\prani> cd COre_java
+PS C:\Users\prani\COre_java> dir
+
+
+    Directory: C:\Users\prani\COre_java
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        30-08-2023  01:00 PM                .metadata
+d-----        31-08-2023  07:58 PM                ClgPracticeSet1
+d-----        01-09-2023  03:36 PM                Practice_Question
+d-----        14-07-2023  06:51 PM                Threads
+
+
+PS C:\Users\prani\COre_java> cd Practice_Question
+PS C:\Users\prani\COre_java\Practice_Question> cd src
+PS C:\Users\prani\COre_java\Practice_Question\src> cd com
+PS C:\Users\prani\COre_java\Practice_Question\src\com> dir
+
+
+    Directory: C:\Users\prani\COre_java\Practice_Question\src\com
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        31-08-2023  12:17 AM                ArrayOperation
+d-----        19-08-2023  10:24 PM                BigIntegerClasses
+d-----        26-08-2023  07:49 PM                DigitOfNumber
+d-----        02-09-2023  05:49 PM                FileHandlingOperation
+d-----        02-09-2023  07:28 PM                Final$Finally$FinalizeConcept
+d-----        02-09-2023  04:27 PM                HandlingError
+d-----        30-08-2023  11:33 PM                HashMapProblem
+d-----        02-09-2023  12:20 PM                ImageOperation
+d-----        02-09-2023  03:13 PM                JavaMemoryManagement
+d-----        02-09-2023  08:36 PM                Jdk8ToJdk15Features
+d-----        27-08-2023  08:21 PM                ListOprations
+d-----        01-09-2023  08:46 AM                MatrixOperation
+d-----        01-09-2023  03:26 PM                Methods
+d-----        02-09-2023  01:33 PM                NullConcept
+d-----        30-08-2023  10:43 AM                NumberConversion
+d-----        01-09-2023  04:36 PM                NumberOperation
+d-----        01-09-2023  09:01 PM                OopsOperation
+d-----        30-08-2023  11:43 PM                Patterns
+d-----        02-09-2023  03:37 PM                StringOperation
+d-----        26-08-2023  04:52 PM                UnicodeCharactor
+
+
+PS C:\Users\prani\COre_java\Practice_Question\src\com> cd ArrayOPeration
+PS C:\Users\prani\COre_java\Practice_Question\src\com\ArrayOPeration> dir
+
+
+    Directory: C:\Users\prani\COre_java\Practice_Question\src\com\ArrayOPeration
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        02-09-2023  05:45 PM            592 AddingArrays.java
+-a----        30-08-2023  05:31 PM            499 DataTypeOperation.java
+-a----        25-08-2023  05:13 PM           2393 FindDublicationElement.java
+-a----        30-08-2023  03:48 PM            638 FindLeaderElements.java
+-a----        30-08-2023  10:40 PM            550 FindMaxAndMinInArray.java
+-a----        26-08-2023  12:23 PM            512 MissingNumber.java
+-a----        31-08-2023  12:23 AM            614 PrintNumbers.java
+-a----        31-08-2023  12:12 AM            618 ShiftAllZeroToRight.java
+
+
+PS C:\Users\prani\COre_java\Practice_Question\src\com\ArrayOPeration> ls
+
+
+    Directory: C:\Users\prani\COre_java\Practice_Question\src\com\ArrayOPeration
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        02-09-2023  05:45 PM            592 AddingArrays.java
+-a----        30-08-2023  05:31 PM            499 DataTypeOperation.java
+-a----        25-08-2023  05:13 PM           2393 FindDublicationElement.java
+-a----        30-08-2023  03:48 PM            638 FindLeaderElements.java
+-a----        30-08-2023  10:40 PM            550 FindMaxAndMinInArray.java
+-a----        26-08-2023  12:23 PM            512 MissingNumber.java
+-a----        31-08-2023  12:23 AM            614 PrintNumbers.java
+-a----        31-08-2023  12:12 AM            618 ShiftAllZeroToRight.java
+
+
+PS C:\Users\prani\COre_java\Practice_Question\src\com\ArrayOPeration> ls -alt
+Get-ChildItem : A parameter cannot be found that matches parameter name 'alt'.
+At line:1 char:4
++ ls -alt
++    ~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-ChildItem], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+PS C:\Users\prani\COre_java\Practice_Question\src\com\ArrayOPeration> jShell
+|  Welcome to JShell -- Version 19
+|  For an introduction type: /help intro
+
+jshell> /help
+|  Type a Java language expression, statement, or declaration.
+|  Or type one of the following commands:
+|  /list [<name or id>|-all|-start]
+|       list the source you have typed
+|  /edit <name or id>
+|       edit a source entry
+|  /drop <name or id>
+|       delete a source entry
+|  /save [-all|-history|-start] <file>
+|       Save snippet source to a file
+|  /open <file>
+|       open a file as source input
+|  /vars [<name or id>|-all|-start]
+|       list the declared variables and their values
+|  /methods [<name or id>|-all|-start]
+|       list the declared methods and their signatures
+|  /types [<name or id>|-all|-start]
+|       list the type declarations
+|  /imports
+|       list the imported items
+|  /exit [<integer-expression-snippet>]
+|       exit the jshell tool
+|  /env [-class-path <path>] [-module-path <path>] [-add-modules <modules>] ...
+|       view or change the evaluation context
+|  /reset [-class-path <path>] [-module-path <path>] [-add-modules <modules>]...
+|       reset the jshell tool
+|  /reload [-restore] [-quiet] [-class-path <path>] [-module-path <path>]...
+|       reset and replay relevant history -- current or previous (-restore)
+|  /history [-all]
+|       history of what you have typed
+|  /help [<command>|<subject>]
+|       get information about using the jshell tool
+|  /set editor|start|feedback|mode|prompt|truncation|format ...
+|       set configuration information
+|  /? [<command>|<subject>]
+|       get information about using the jshell tool
+|  /!
+|       rerun last snippet -- see /help rerun
+|  /<id>
+|       rerun snippets by ID or ID range -- see /help rerun
+|  /-<n>
+|       rerun n-th previous snippet -- see /help rerun
+|
+|  For more information type '/help' followed by the name of a
+|  command or a subject.
+|  For example '/help /list' or '/help intro'.
+|
+|  Subjects:
+|
+|  intro
+|       an introduction to the jshell tool
+|  keys
+|       a description of readline-like input editing
+|  id
+|       a description of snippet IDs and how use them
+|  shortcuts
+|       a description of keystrokes for snippet and command completion,
+|       information access, and automatic code generation
+|  context
+|       a description of the evaluation context options for /env /reload and /reset
+|  rerun
+|       a description of ways to re-evaluate previously entered snippets
+
+jshell> /help intro
+|
+|                                   intro
+|                                   =====
+|
+|  The jshell tool allows you to execute Java code, getting immediate results.
+|  You can enter a Java definition (variable, method, class, etc), like:  int x = 8
+|  or a Java expression, like:  x + x
+|  or a Java statement or import.
+|  These little chunks of Java code are called 'snippets'.
+|
+|  There are also the jshell tool commands that allow you to understand and
+|  control what you are doing, like:  /list
+|
+|  For a list of commands: /help
+
+jshell> open
+|  Error:
+|  cannot find symbol
+|    symbol:   variable open
+|  open
+|  ^--^
+
+jshell> open A.java
+|  Error:
+|  ';' expected
+|  open A.java;
+|        ^
+
+jshell> help
+|  Error:
+|  cannot find symbol
+|    symbol:   variable help
+|  help
+|  ^--^
+
+jshell> /help
+|  Type a Java language expression, statement, or declaration.
+|  Or type one of the following commands:
+|  /list [<name or id>|-all|-start]
+|       list the source you have typed
+|  /edit <name or id>
+|       edit a source entry
+|  /drop <name or id>
+|       delete a source entry
+|  /save [-all|-history|-start] <file>
+|       Save snippet source to a file
+|  /open <file>
+|       open a file as source input
+|  /vars [<name or id>|-all|-start]
+|       list the declared variables and their values
+|  /methods [<name or id>|-all|-start]
+|       list the declared methods and their signatures
+|  /types [<name or id>|-all|-start]
+|       list the type declarations
+|  /imports
+|       list the imported items
+|  /exit [<integer-expression-snippet>]
+|       exit the jshell tool
+|  /env [-class-path <path>] [-module-path <path>] [-add-modules <modules>] ...
+|       view or change the evaluation context
+|  /reset [-class-path <path>] [-module-path <path>] [-add-modules <modules>]...
+|       reset the jshell tool
+|  /reload [-restore] [-quiet] [-class-path <path>] [-module-path <path>]...
+|       reset and replay relevant history -- current or previous (-restore)
+|  /history [-all]
+|       history of what you have typed
+|  /help [<command>|<subject>]
+|       get information about using the jshell tool
+|  /set editor|start|feedback|mode|prompt|truncation|format ...
+|       set configuration information
+|  /? [<command>|<subject>]
+|       get information about using the jshell tool
+|  /!
+|       rerun last snippet -- see /help rerun
+|  /<id>
+|       rerun snippets by ID or ID range -- see /help rerun
+|  /-<n>
+|       rerun n-th previous snippet -- see /help rerun
+|
+|  For more information type '/help' followed by the name of a
+|  command or a subject.
+|  For example '/help /list' or '/help intro'.
+|
+|  Subjects:
+|
+|  intro
+|       an introduction to the jshell tool
+|  keys
+|       a description of readline-like input editing
+|  id
+|       a description of snippet IDs and how use them
+|  shortcuts
+|       a description of keystrokes for snippet and command completion,
+|       information access, and automatic code generation
+|  context
+|       a description of the evaluation context options for /env /reload and /reset
+|  rerun
+|       a description of ways to re-evaluate previously entered snippets
+
+jshell> keys
+|  Error:
+|  cannot find symbol
+|    symbol:   variable keys
+|  keys
+|  ^--^
+
+jshell> id
+|  Error:
+|  cannot find symbol
+|    symbol:   variable id
+|  id
+|  ^^
+
+jshell> id 1
+|  Error:
+|  ';' expected
+|  id 1
+|    ^
+|  Error:
+|  cannot find symbol
+|    symbol:   variable id
+|  id 1
+|  ^^
+
+jshell> id x
+|  created variable x, however, it cannot be referenced until class id is declared
+
+jshell> int x =20
+x ==> 20
+
+jshell> id x
+|  replaced variable x, however, it cannot be referenced until class id is declared
+
+jshell> /help
+|  Type a Java language expression, statement, or declaration.
+|  Or type one of the following commands:
+|  /list [<name or id>|-all|-start]
+|       list the source you have typed
+|  /edit <name or id>
+|       edit a source entry
+|  /drop <name or id>
+|       delete a source entry
+|  /save [-all|-history|-start] <file>
+|       Save snippet source to a file
+|  /open <file>
+|       open a file as source input
+|  /vars [<name or id>|-all|-start]
+|       list the declared variables and their values
+|  /methods [<name or id>|-all|-start]
+|       list the declared methods and their signatures
+|  /types [<name or id>|-all|-start]
+|       list the type declarations
+|  /imports
+|       list the imported items
+|  /exit [<integer-expression-snippet>]
+|       exit the jshell tool
+|  /env [-class-path <path>] [-module-path <path>] [-add-modules <modules>] ...
+|       view or change the evaluation context
+|  /reset [-class-path <path>] [-module-path <path>] [-add-modules <modules>]...
+|       reset the jshell tool
+|  /reload [-restore] [-quiet] [-class-path <path>] [-module-path <path>]...
+|       reset and replay relevant history -- current or previous (-restore)
+|  /history [-all]
+|       history of what you have typed
+|  /help [<command>|<subject>]
+|       get information about using the jshell tool
+|  /set editor|start|feedback|mode|prompt|truncation|format ...
+|       set configuration information
+|  /? [<command>|<subject>]
+|       get information about using the jshell tool
+|  /!
+|       rerun last snippet -- see /help rerun
+|  /<id>
+|       rerun snippets by ID or ID range -- see /help rerun
+|  /-<n>
+|       rerun n-th previous snippet -- see /help rerun
+|
+|  For more information type '/help' followed by the name of a
+|  command or a subject.
+|  For example '/help /list' or '/help intro'.
+|
+|  Subjects:
+|
+|  intro
+|       an introduction to the jshell tool
+|  keys
+|       a description of readline-like input editing
+|  id
+|       a description of snippet IDs and how use them
+|  shortcuts
+|       a description of keystrokes for snippet and command completion,
+|       information access, and automatic code generation
+|  context
+|       a description of the evaluation context options for /env /reload and /reset
+|  rerun
+|       a description of ways to re-evaluate previously entered snippets
+
+jshell> /!
+id x;
+|  modified variable x, however, it cannot be referenced until class id is declared
+
+jshell> exit
+|  Error:
+|  cannot find symbol
+|    symbol:   variable exit
+|  exit
+|  ^--^
+
+jshell> /exit
+|  Goodbye
+PS C:\Users\prani\COre_java\Practice_Question\src\com\ArrayOPeration> jShell
+|  Welcome to JShell -- Version 19
+|  For an introduction type: /help intro
+
+jshell> rerun 5
+|  Error:
+|  ';' expected
+|  rerun 5
+|       ^
+|  Error:
+|  cannot find symbol
+|    symbol:   variable rerun
+|  rerun 5
+|  ^---^
+
+jshell> shortcuts
+|  Error:
+|  cannot find symbol
+|    symbol:   variable shortcuts
+|  shortcuts
+|  ^-------^
+
+jshell> rerun
+|  Error:
+|  cannot find symbol
+|    symbol:   variable rerun
+|  rerun
+|  ^---^
+
+jshell> /env
+
+jshell> /list
+
+jshell> /edit
+|  created class Main
+
+jshell> save Main
+|  created variable Main, however, it cannot be referenced until class save is declared
+
+jshell> /save Main
+
+jshell> /open Main
+
+jshell> /?
+|  Type a Java language expression, statement, or declaration.
+|  Or type one of the following commands:
+|  /list [<name or id>|-all|-start]
+|       list the source you have typed
+|  /edit <name or id>
+|       edit a source entry
+|  /drop <name or id>
+|       delete a source entry
+|  /save [-all|-history|-start] <file>
+|       Save snippet source to a file
+|  /open <file>
+|       open a file as source input
+|  /vars [<name or id>|-all|-start]
+|       list the declared variables and their values
+|  /methods [<name or id>|-all|-start]
+|       list the declared methods and their signatures
+|  /types [<name or id>|-all|-start]
+|       list the type declarations
+|  /imports
+|       list the imported items
+|  /exit [<integer-expression-snippet>]
+|       exit the jshell tool
+|  /env [-class-path <path>] [-module-path <path>] [-add-modules <modules>] ...
+|       view or change the evaluation context
+|  /reset [-class-path <path>] [-module-path <path>] [-add-modules <modules>]...
+|       reset the jshell tool
+|  /reload [-restore] [-quiet] [-class-path <path>] [-module-path <path>]...
+|       reset and replay relevant history -- current or previous (-restore)
+|  /history [-all]
+|       history of what you have typed
+|  /help [<command>|<subject>]
+|       get information about using the jshell tool
+|  /set editor|start|feedback|mode|prompt|truncation|format ...
+|       set configuration information
+|  /? [<command>|<subject>]
+|       get information about using the jshell tool
+|  /!
+|       rerun last snippet -- see /help rerun
+|  /<id>
+|       rerun snippets by ID or ID range -- see /help rerun
+|  /-<n>
+|       rerun n-th previous snippet -- see /help rerun
+|
+|  For more information type '/help' followed by the name of a
+|  command or a subject.
+|  For example '/help /list' or '/help intro'.
+|
+|  Subjects:
+|
+|  intro
+|       an introduction to the jshell tool
+|  keys
+|       a description of readline-like input editing
+|  id
+|       a description of snippet IDs and how use them
+|  shortcuts
+|       a description of keystrokes for snippet and command completion,
+|       information access, and automatic code generation
+|  context
+|       a description of the evaluation context options for /env /reload and /reset
+|  rerun
+|       a description of ways to re-evaluate previously entered snippets
+
+jshell> rerun Main
+|  modified variable Main, however, it cannot be referenced until class rerun is declared
+
+jshell> /vars
+|    rerun Main = (not-active)
+
+jshell> rerun Main = active
+|  Error:
+|  cannot find symbol
+|    symbol:   class rerun
+|  rerun Main = active;
+|  ^---^
+|  Error:
+|  cannot find symbol
+|    symbol:   variable active
+|  rerun Main = active;
+|               ^----^
+
+jshell> rerun Main = new Main();
+|  Error:
+|  cannot find symbol
+|    symbol:   class rerun
+|  rerun Main = new Main();
+|  ^---^
+
+jshell> Main main = new Main();
+main ==> Main@7a4f0f29
+
+jshell> main
+main ==> Main@7a4f0f29
+
+jshell> exit
+|  Error:
+|  cannot find symbol
+|    symbol:   variable exit
+|  exit
+|  ^--^
+
+jshell> /exit
+|  Goodbye
+PS C:\Users\prani\COre_java\Practice_Question\src\com\ArrayOPeration> ls
+
+
+    Directory: C:\Users\prani\COre_java\Practice_Question\src\com\ArrayOPeration
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        02-09-2023  05:45 PM            592 AddingArrays.java
+-a----        30-08-2023  05:31 PM            499 DataTypeOperation.java
+-a----        25-08-2023  05:13 PM           2393 FindDublicationElement.java
+-a----        30-08-2023  03:48 PM            638 FindLeaderElements.java
+-a----        30-08-2023  10:40 PM            550 FindMaxAndMinInArray.java
+-a----        02-09-2023  11:06 PM            110 Main
+-a----        26-08-2023  12:23 PM            512 MissingNumber.java
+-a----        31-08-2023  12:23 AM            614 PrintNumbers.java
+-a----        31-08-2023  12:12 AM            618 ShiftAllZeroToRight.java
+
+
+PS C:\Users\prani\COre_java\Practice_Question\src\com\ArrayOPeration> jshell
+|  Welcome to JShell -- Version 19
+|  For an introduction type: /help intro
+
+jshell> /edit Main
+|  No such snippet: Main
+
+jshell> /edit
+|  created class Main
+
+jshell> /save Main.java
+
+jshell> /exit
+|  Goodbye
+PS C:\Users\prani\COre_java\Practice_Question\src\com\ArrayOPeration> ls
+
+
+    Directory: C:\Users\prani\COre_java\Practice_Question\src\com\ArrayOPeration
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        02-09-2023  05:45 PM            592 AddingArrays.java
+-a----        30-08-2023  05:31 PM            499 DataTypeOperation.java
+-a----        25-08-2023  05:13 PM           2393 FindDublicationElement.java
+-a----        30-08-2023  03:48 PM            638 FindLeaderElements.java
+-a----        30-08-2023  10:40 PM            550 FindMaxAndMinInArray.java
+-a----        02-09-2023  11:06 PM            110 Main
+-a----        02-09-2023  11:11 PM            108 Main.java
+-a----        26-08-2023  12:23 PM            512 MissingNumber.java
+-a----        31-08-2023  12:23 AM            614 PrintNumbers.java
+-a----        31-08-2023  12:12 AM            618 ShiftAllZeroToRight.java
+
+
+PS C:\Users\prani\COre_java\Practice_Question\src\com\ArrayOPeration> javac Main.java
+PS C:\Users\prani\COre_java\Practice_Question\src\com\ArrayOPeration> java Main
+Here
+PS C:\Users\prani\COre_java\Practice_Question\src\com\ArrayOPeration> jshell
+|  Welcome to JShell -- Version 19
+|  For an introduction type: /help intro
+
+jshell> run Main
+|  created variable Main, however, it cannot be referenced until class run is declared
+
+jshell> Main main = new Main()
+|  Error:
+|  cannot find symbol
+|    symbol:   class Main
+|  Main main = new Main();
+|  ^--^
+|  Error:
+|  cannot find symbol
+|    symbol:   class Main
+|  Main main = new Main();
+|                  ^--^
+
+jshell> Main main = new Main();
+|  Error:
+|  cannot find symbol
+|    symbol:   class Main
+|  Main main = new Main();
+|  ^--^
+|  Error:
+|  cannot find symbol
+|    symbol:   class Main
+|  Main main = new Main();
+|                  ^--^
+
+jshell> /vars
+|    run Main = (not-active)
+
+jshell> run Main
+|  modified variable Main, however, it cannot be referenced until class run is declared
+
+jshell> /open Main.java
+
+jshell>
+
+jshell> Main.main()
+|  Error:
+|  method main in class Main cannot be applied to given types;
+|    required: java.lang.String[]
+|    found:    no arguments
+|    reason: actual and formal argument lists differ in length
+|  Main.main()
+|  ^-------^
+
+jshell> Main.main(args)
+|  Error:
+|  cannot find symbol
+|    symbol:   variable args
+|  Main.main(args)
+|            ^--^
+
+jshell> Main.main(12)
+|  Error:
+|  incompatible types: int cannot be converted to java.lang.String[]
+|  Main.main(12)
+|            ^^
+
+jshell> Main.main(12+" ")
+|  Error:
+|  incompatible types: java.lang.String cannot be converted to java.lang.String[]
+|  Main.main(12+" ")
+|            ^----^
+
+jshell> Main.main(" Hi ")
+|  Error:
+|  incompatible types: java.lang.String cannot be converted to java.lang.String[]
+|  Main.main(" Hi ")
+|            ^----^
+
+jshell> /exit
+|  Goodbye
+PS C:\Users\prani\COre_java\Practice_Question\src\com\ArrayOPeration> ls
+
+
+    Directory: C:\Users\prani\COre_java\Practice_Question\src\com\ArrayOPeration
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        02-09-2023  05:45 PM            592 AddingArrays.java
+-a----        30-08-2023  05:31 PM            499 DataTypeOperation.java
+-a----        25-08-2023  05:13 PM           2393 FindDublicationElement.java
+-a----        30-08-2023  03:48 PM            638 FindLeaderElements.java
+-a----        30-08-2023  10:40 PM            550 FindMaxAndMinInArray.java
+-a----        02-09-2023  11:06 PM            110 Main
+-a----        02-09-2023  11:12 PM            406 Main.class
+-a----        02-09-2023  11:11 PM            108 Main.java
+-a----        26-08-2023  12:23 PM            512 MissingNumber.java
+-a----        31-08-2023  12:23 AM            614 PrintNumbers.java
+-a----        31-08-2023  12:12 AM            618 ShiftAllZeroToRight.java
+
+
+PS C:\Users\prani\COre_java\Practice_Question\src\com\ArrayOPeration> jshell
+|  Welcome to JShell -- Version 19
+|  For an introduction type: /help intro
+
+jshell> /edit Main.java
+|  No such snippet: Main.java
+
+jshell> /edit
+|  created class First
+
+jshell> First.main()
+|  Error:
+|  method main in class First cannot be applied to given types;
+|    required: java.lang.String[]
+|    found:    no arguments
+|    reason: actual and formal argument lists differ in length
+|  First.main()
+|  ^--------^
+
+jshell> /edit First
+|  replaced class First
+
+jshell> First.main()
+kkk
+
+jshell> /open /edit Second.java
+|  File '/edit Second.java' for '/open' is not found.
+
+jshell> /open Second.java | /edit Second.java
+|  File 'Second.java | /edit Second.java' for '/open' is not found.
+
+jshell> /edit Second.java
+|  No such snippet: Second.java
+
+jshell> /open Second.java
+|  File 'Second.java' for '/open' is not found.
+
+jshell> /help
+|  Type a Java language expression, statement, or declaration.
+|  Or type one of the following commands:
+|  /list [<name or id>|-all|-start]
+|       list the source you have typed
+|  /edit <name or id>
+|       edit a source entry
+|  /drop <name or id>
+|       delete a source entry
+|  /save [-all|-history|-start] <file>
+|       Save snippet source to a file
+|  /open <file>
+|       open a file as source input
+|  /vars [<name or id>|-all|-start]
+|       list the declared variables and their values
+|  /methods [<name or id>|-all|-start]
+|       list the declared methods and their signatures
+|  /types [<name or id>|-all|-start]
+|       list the type declarations
+|  /imports
+|       list the imported items
+|  /exit [<integer-expression-snippet>]
+|       exit the jshell tool
+|  /env [-class-path <path>] [-module-path <path>] [-add-modules <modules>] ...
+|       view or change the evaluation context
+|  /reset [-class-path <path>] [-module-path <path>] [-add-modules <modules>]...
+|       reset the jshell tool
+|  /reload [-restore] [-quiet] [-class-path <path>] [-module-path <path>]...
+|       reset and replay relevant history -- current or previous (-restore)
+|  /history [-all]
+|       history of what you have typed
+|  /help [<command>|<subject>]
+|       get information about using the jshell tool
+|  /set editor|start|feedback|mode|prompt|truncation|format ...
+|       set configuration information
+|  /? [<command>|<subject>]
+|       get information about using the jshell tool
+|  /!
+|       rerun last snippet -- see /help rerun
+|  /<id>
+|       rerun snippets by ID or ID range -- see /help rerun
+|  /-<n>
+|       rerun n-th previous snippet -- see /help rerun
+|
+|  For more information type '/help' followed by the name of a
+|  command or a subject.
+|  For example '/help /list' or '/help intro'.
+|
+|  Subjects:
+|
+|  intro
+|       an introduction to the jshell tool
+|  keys
+|       a description of readline-like input editing
+|  id
+|       a description of snippet IDs and how use them
+|  shortcuts
+|       a description of keystrokes for snippet and command completion,
+|       information access, and automatic code generation
+|  context
+|       a description of the evaluation context options for /env /reload and /reset
+|  rerun
+|       a description of ways to re-evaluate previously entered snippets
+
+jshell> rerun 3
+|  Error:
+|  ';' expected
+|  rerun 3
+|       ^
+|  Error:
+|  cannot find symbol
+|    symbol:   variable rerun
+|  rerun 3
+|  ^---^
+
+jshell> rerun 6
+|  Error:
+|  ';' expected
+|  rerun 6
+|       ^
+|  Error:
+|  cannot find symbol
+|    symbol:   variable rerun
+|  rerun 6
+|  ^---^
+
+jshell> reload
+|  Error:
+|  cannot find symbol
+|    symbol:   variable reload
+|  reload
+|  ^----^
+
+jshell> reload Main.java
+|  Error:
+|  ';' expected
+|  reload Main.java;
+|             ^
+
+jshell> /drop Main
+|  No such snippet: Main
+|  See /types, /methods, /vars, or /list
+
+jshell> /drop Main.java
+|  No such snippet: Main.java
+|  See /types, /methods, /vars, or /list
+
+jshell> /list
+
+   2 : public class First{
+             public static void main(){
+             System.out.println("kkk");
+             }
+       }
+   3 : First.main()
+
+jshell> rerun 2
+|  Error:
+|  ';' expected
+|  rerun 2
+|       ^
+|  Error:
+|  cannot find symbol
+|    symbol:   variable rerun
+|  rerun 2
+|  ^---^
+
+jshell> /open First
+|  File 'First' for '/open' is not found.
+
+jshell> /open First.java
+|  File 'First.java' for '/open' is not found.
+
+jshell> First.main()
+kkk
+
+jshell> import java.util.*;
+   ...>         public class Second{
+   ...>     public static void main(){
+   ...>
+   ...> Scanner sc= new Scanner(System.in);
+   ...>  int num=sc.nextInt();
+   ...> for(int i =0 ; i<num; i++){
+   ...>     System.out.println(i+"Hello");
+   ...> }
+   ...> }
+   ...> }
+|  created class Second
+
+jshell> Second.main()
+10
+0Hello
+1Hello
+2Hello
+3Hello
+4Hello
+5Hello
+6Hello
+7Hello
+8Hello
+9Hello
+
+jshell> /call
+|  Invalid command: /call
+|  Type /help for help.
+
+jshell> /open mysql
+|  File 'mysql' for '/open' is not found.
+
+jshell> edit mysql
+|  created variable mysql, however, it cannot be referenced until class edit is declared
+
+jshell> /edit mysql
+
+jshell>
