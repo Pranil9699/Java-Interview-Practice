@@ -1,6 +1,6 @@
 package com.OopsOperation.InterfaceConcept;
 
-public class Bmw implements Car {
+public final class Bmw implements Car {
 
 	@Override
 	public void start() {

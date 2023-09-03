@@ -1,0 +1,83 @@
+Java Memory Management 
+
+The Java Memory Management Actually Having 2 Section or 2 parts ->
+
+1 ) Heap Memory 
+       
+	Heap Memory Will Having 2 part ->
+
+	
+	i) Young Generation
+          - In Young Generation Will Start Storing the Object 
+          - When The Program Will create anyObject Soo That Will Store
+            First Time in Young Generation
+          - In Young Gen. Having The Minor Garbag Collector 
+          - This Minor Garbag Collector WIll Be Faster Because One Object Will Destory at a Time.
+          - Young Generation WIll also Have The 3 part 
+               I  ) Young Gen.  
+               II ) Survivor Memory 1 (S1)-: 
+                    - this Memoery Will Have Small, WHen Young Gen. Memory Will AlThogh Fill then the object will sfited inside S1.
+               III) Survivor Memory 2 (s2) -:
+                    - When The  s1 will fill than that object will sfited in S2.
+
+
+      ii) Old Generation
+          - When Your Application or website Having The N number Of Object And Then They Need To Delete From heap memory 
+          - soo In Old Gen. having The Major Garbag Collector
+          - Major Garbag Collector Will destoring the All The Object Which No need Long Soo They Will Destory At One Time And It Take Lot of Time 
+          - Because of Lot Of time Some times you Application or your website will show The Time outs Errors
+
+       
+
+
+   - In heap Memory Having The Memory Pool 
+     Memory Pool -:
+                  - is used to store immutale objects.
+                  - String class, String Pools
+                  - Run time By Jvm Memory Managers.
+
+
+
+   - In heap memory 
+             - In Heap Memory The Stores Objects 
+             - JRE Classes will Stores.
+             - Garbag Runs On Only Heap Memory To free Some Memory by destroying object which don't have any references.
+ 
+      
+  2) Stack Section -
+             In The Stack section havig 
+             
+		i) Permanent Generation -
+              	 - In this section will Have MetaData of Classes/Methods.
+                   - It's Not Part Of Heap Memory 
+                   - This block or Permanent Generation will be Generated At The Run Time
+
+
+                   IN that Having ,
+                    
+                   Method Area -
+                               - In Method Area Will Have The Class Structure
+                               
+                                In That Having ,
+                                  Run Time Constant Pool-
+                                              - Inside Run time Constant Pool Will have The Static Variables And Constants Variable.
+           
+
+            ii) Java Stack Memory -
+				-It Used To Execute Threads.
+				-Method Specifix Values
+                        - Local variables like ( int i =0)
+                        - Object references which are referring objects on heap memory
+                        - Ot Have Refererance Variable which Pointing TO Object 
+
+				- This Will Be Followed LIFO ( Last In First Out) 
+
+
+				-In That Having ,
+						Method Block - 
+							- This method Block Be executed When Any Method Will Call 
+                                           - One method at One Time Will be Call
+
+
+Important Point 
+Stack Memory Size Is Very less as Compared To Heap Memory.

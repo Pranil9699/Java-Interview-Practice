@@ -9,14 +9,17 @@ public class TestCar {
 		  bmw.gear();
 		  bmw.stop();
 		  bmw.run();
+		  bmw.move(); // default method inside interface
 		  
 		  
 		  
 		  Car car= new Bmw();
+		  
 		  car.start();
 		  car.run();
 		  car.stop();
-		  
+		  Car.swim();// static method in interface
+		  car.move(); // default method inside interface
 		  
 	}
 
