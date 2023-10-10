@@ -1,0 +1,11 @@
+set:
+treeset,hashset,linkedhashset,enumset,sortedset
+
+list:
+arraylist,linkedlist,vector
+
+map:
+HashMap,LinkedHashMap,properited ,enumMap,TableMap
+
+Queue:
+prioryqueue,dequeue 
